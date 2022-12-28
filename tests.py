@@ -27,3 +27,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(functions.x_cubed(4), 64)
         self.assertEqual(functions.x_cubed(-4), -64)
         self.assertEqual(functions.x_cubed(5), 125)
+
+if __name__ == '__main__':
+    unittest.main()
