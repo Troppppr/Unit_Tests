@@ -20,5 +20,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run pytest
-        run: |
-          python -m pytest tests/
