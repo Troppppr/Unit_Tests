@@ -35,5 +35,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(functions.y(-1), -1.7853981633974483)
         self.assertEqual(functions.y(-2), -9.10714871779409)
 
+
 if __name__ == '__main__':
     unittest.main()

@@ -27,3 +27,14 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(functions.x_cubed(4), 64)
         self.assertEqual(functions.x_cubed(-4), -64)
         self.assertEqual(functions.x_cubed(5), 125)
+
+    def test_y(self):
+        self.assertEqual(functions.y(1), math.pi / 4 + 1)
+        self.assertEqual(functions.y(2), 9.10714871779409)
+        self.assertEqual(functions.y(3), 28.249045772398254)
+        self.assertEqual(functions.y(-1), -1.7853981633974483)
+        self.assertEqual(functions.y(-2), -9.10714871779409)
+
+
+if __name__ == '__main__':
+    unittest.main()
